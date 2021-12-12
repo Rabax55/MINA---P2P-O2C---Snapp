@@ -10,8 +10,8 @@ supply-chains and the backend-processing of their steps.
 1. Todays blockchains are for 95% DeFi-oriented - their "native" realm, boiling down to just ordinary money speculation, using a rather 
    new technology.
    
-2. Staying within the "business" realm, it is astonishing, that the processes "backing" this economy - money doesn't grow out of thin 
-   air, although it sometimes looks like so -, are completely underrated and therefore underrepresented in the blockchain space. The amount
+2. Staying within the "business" realm, it is astonishing, that the "real" value producing processes "backing" this economy - money doesn't grow out of  
+   thin air, although for every AMM it may look like so -, are completely underrated and therefore underrepresented in the blockchain space. The amount
    of (non-chained) transactions in this area is estimated to be 2,5 - 3,5 trillion a year. Compared to this, DeFi/NFT is kind of cute and tiny.
    And all of these "trillion" instaces represent value/investment...
    (And hey: this is setting a new dimensioned benchmark perspective wrt to tps, right?). Anyway...
