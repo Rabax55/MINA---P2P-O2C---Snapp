@@ -41,7 +41,7 @@ As said, this is my "solution" of the bootcamp-attendance: all kind of open task
 
 I didn't plan to submit this, and i'm not in for any incentives/rewards or the like: just want to have established a new realm of use-cases
 for MINA. In writing this, i have changed my opinion: whenever the above receives any reward, it should/would be staked. Not to the MINA-
-net (sorry for that), but to "Medicine-sans-Frontiers". Unfortunately i can't commit to this yet: Snapps are not even available on testnet afaik. 
+Network (sorry for that), but to "Medicines-sans-Frontiers". Unfortunately i can't commit to this yet: Snapps are not even available on testnet afaik. 
 But time will come...
 
 Kind regards to the decision commitee, or whatever you call this, Joerg.
