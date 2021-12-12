@@ -26,7 +26,7 @@ supply-chains and the backend-processing of their steps.
 4. The prototype implements a Finit-State-Machine Smart-Contract w/ nine (or so) defined states, the processes named above are in at a given time
    per instance. The contract controls the allowed next steps (or their declinements) until reaching the FSM-end: from 'Order placed' over 'Order 
    accepted', 'Delivery executed', 'Delivery accepted' to 'Bill issued' and 'Vendor invoice accepted'. 
-   Payment and any kind of Token/Tokenisation are out of scope. The latter is is - imho - not a lack of features, but a nice attribute of the use 
+   Payment and any kind of Token/Tokenisation are out of scope. The latter is - imho - not a lack of features, but a nice attribute of the use 
    case: except for tx-payments, one doesn't need to care about the crypto space speculation/Token-value ups-and-downs, while bringing a valid 
    solution to 'every-day operations' of enterprises...
    
