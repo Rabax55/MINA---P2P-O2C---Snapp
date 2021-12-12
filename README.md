@@ -17,17 +17,18 @@ supply-chains and the backend-processing of their steps.
    (And hey: this is setting a new dimensioned benchmark perspective wrt to tps, right?). Anyway...
    
 3. What i would like to implement on MINA, is the complete (automated) process steps of a Procure-to-Pay process (the buyers view), and
-   the corresponding Order-to-Cash process (from a vendors view) between backend systems of enterprises, e.g. ERP-Systems. I have a prototype
-   solution running on a Ethereum-based BESU-network. It's private/permissioned at the moment, but that doesn't matter for it's inner "ticking"
-   in principle (and smootly abstracts for open questions like "gas"-costs, tps, L2-questions and the like...). Now heading for a public 
-   chain - MINA's ZKP-design-priciples being the (only) appropriate candidate, as far as i see: businesses hate "publicity", and never will
+   the corresponding Order-to-Cash process (from a vendors view) between backend systems of enterprises, e.g. ERP-Systems, "governed" by a Snapp.
+   I have a prototype solution running on a Ethereum-based BESU-network. It's private/permissioned at the moment, but that doesn't matter for it's 
+   inner "ticking" in principle (and smootly abstracts for open questions like "gas"-costs, tps, L2-questions and the like...). Now heading for a 
+   public chain - MINA's ZKP-design-priciples being the (only) appropriate candidate, as far as i see: businesses hate "publicity", and never will
    use a public chain, where a sophisticated "Mr. Robot" can put appropriate markers to gain insight into their competition-standings...
    
-4. The prototype implements a Finit-State-Machine Smart-Contract w/ nine (or so) defined states, the processes named above are in per instance.
-   It controls the allowed next steps (or their declinements) until reaching the FSM-end: from 'Order placed' over 'Order accepted', 'Delivery
-   executed', 'Delivery accepted' to 'Bill issued' and 'Vendor invoice accepted'. Payment and any kind of Token/Tokenisation are out of scope.
-   This is - imho - not a lack of features, but a nice attribute of the use case: except for tx-payments, one doesn't need to care about the
-   crypto space speculation/Token ups-and-downs...
+4. The prototype implements a Finit-State-Machine Smart-Contract w/ nine (or so) defined states, the processes named above are in at a given time
+   per instance. The contract controls the allowed next steps (or their declinements) until reaching the FSM-end: from 'Order placed' over 'Order 
+   accepted', 'Delivery executed', 'Delivery accepted' to 'Bill issued' and 'Vendor invoice accepted'. 
+   Payment and any kind of Token/Tokenisation are out of scope. The latter is is - imho - not a lack of features, but a nice attribute of the use 
+   case: except for tx-payments, one doesn't need to care about the crypto space speculation/Token-value ups-and-downs, while bringing a valid 
+   solution to 'every-day operations' of enterprises...
    
 5. While the Snapp i think of would be the (kind of hidden although) core part of the whole scenario, it's completely embedded into ERP-System-
    orchestration of the respective Snapp-participants: Orders (from a buyer) are automatically prooved and posted at a vendor system, shipments
@@ -40,8 +41,9 @@ As said, this is my "solution" of the bootcamp-attendance: all kind of open task
 
 I didn't plan to submit this, and i'm not in for any incentives/rewards or the like: just want to have established a new realm of use-cases
 for MINA. In writing this, i have changed my opinion: whenever the above receives any reward, it should/would be staked. Not to the MINA-
-net, but to "Medicine-sans-Frontiers". Unfortunately i can't commit to this yet: Snapps are not even on testnet afaik. But time will come...
+net (sorry for that), but to "Medicine-sans-Frontiers". Unfortunately i can't commit to this yet: Snapps are not even available on testnet afaik. 
+But time will come...
 
-Kind regards to the decicion commitee, or whatever you call this, Joerg.
+Kind regards to the decision commitee, or whatever you call this, Joerg.
 
 
