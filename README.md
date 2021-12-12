@@ -28,7 +28,8 @@ supply-chains and the backend-processing of their steps.
    accepted', 'Delivery executed', 'Delivery accepted' to 'Bill issued' and 'Vendor invoice accepted'. 
    Payment and any kind of Token/Tokenisation are out of scope. The latter is - imho - not a lack of features, but a nice attribute of the use 
    case: except for tx-payments, one doesn't need to care about the crypto space speculation/Token-value ups-and-downs, while bringing a valid 
-   solution to 'every-day operations' of enterprises...
+   solution to 'every-day operations' of enterprises (happy to stay "below" tokenization for the time being; factoring the concerned assets via
+   token is a -subsequent - world...).
    
 5. While the Snapp i think of would be the (kind of hidden although) core part of the whole scenario, it's completely embedded into ERP-System-
    orchestration of the respective Snapp-participants: Orders (from a buyer) are automatically prooved and posted at a vendor system, shipments
