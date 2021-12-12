@@ -19,7 +19,7 @@ supply-chains and the backend-processing of their steps.
 3. What i would like to implement on MINA, is the complete (automated) process steps of a Procure-to-Pay process (the buyers view), and
    the corresponding Order-to-Cash process (from a vendors view) between backend systems of enterprises, e.g. ERP-Systems, "governed" by a Snapp.
    I have a prototype solution running on a Ethereum-based BESU-network. It's private/permissioned at the moment, but that doesn't matter for it's 
-   inner "ticking" in principle (and smootly abstracts for open questions like "gas"-costs, tps, L2-questions and the like...). Now heading for a 
+   inner "ticking" in principle (and smootly abstracts away open questions like "gas"-costs, tps, L2-layers and the like...). Now heading for a 
    public chain - MINA's ZKP-design-priciples being the (only) appropriate candidate, as far as i see: businesses hate "publicity", and never will
    use a public chain, where a sophisticated "Mr. Robot" can put appropriate markers to gain insight into their competition-standings...
    
