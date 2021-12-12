@@ -37,7 +37,7 @@ supply-chains and the backend-processing of their steps.
    committed to on MINA (dispute reduction), and as Snapps live off-chain, with ZKP's the complete privacy of (fierce) competitive information 
    is guaranteed.
    
-As said, this is my "solution" of the bootcamp-attendance: all kind of open tasks to be implemented. Best i can do as o non-dev, but an ERP-architect 
+As said, this is my "solution" of the bootcamp-attendance: all kind of open tasks to be implemented. Best i can do as a non-dev, but an ERP-architect 
 (Enterprise resource planning systems are kind of the "Finite-Field" of my technical thoughts; they always wrap around this: "modulo ERP"...).
 
 I didn't plan to submit this, and i'm not in for any incentives/rewards or the like: just want to have established a new realm of use-cases
